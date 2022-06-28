@@ -1,4 +1,5 @@
 import 'package:ecommerce_web/view/common_view/dashboard.dart';
+import 'package:ecommerce_web/view/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Welcome to Flutter',
-            home: Dashboard(),
+            home: Splash(),
           );
         });
   }
